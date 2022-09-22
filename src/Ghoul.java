@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Ghoul {
     public static void main(String[] args) {
         System.out.println("Вы Гуль?");
@@ -15,10 +16,7 @@ public class Ghoul {
                 int res = x - 7;
                 System.out.println(x + "-7 " + "= " + res);
             }
-            System.out.println("Хорошего дня :)");
         }
-        if (sc1 == 2) {
-            System.out.println("Хорошего дня :)");
-        }
+        System.out.println("Хорошего дня :)");
     }
 }
